@@ -1,4 +1,6 @@
 # Cookie
+1. 服务器端通过 response header 字段来让浏览器保存 Cookie，如： Set-Cookie: username=JinJie
+1. 浏览器通过 request header 字段来向服务器发送 Cookie，如：Cookie: username=JinJie
 
 ## 会话期 Cookie
    - 新创建的 Cookie 默认为会话期 Cookie，浏览器关闭就自动失效（有些浏览器有会话自动恢复功能）
