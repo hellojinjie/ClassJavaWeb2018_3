@@ -7,7 +7,9 @@
 
 ## 持久性 Cookie
    - 可以指定一个特定的过期时间 setMaxAge 设定最长存活时间，单位为秒 `setMaxAge(100)`   
-   
+   
+在 servlet 里如何删除客户端里的 cookie？
+   
 ## Cookie 作用域
    - Domain 和 Path 定义了 Cookie 的作用域，表示 Cookie 可以发送给哪些 URL
    - 默认的 Domain 为当前 URL 对应的 hostname(不包含子域名) `setDomain("jsj.tzc.edu.cn")`
